@@ -1,0 +1,21 @@
+{
+  "name": "trueneutral/se3",
+  "type": "library",
+  "description": "DataLoader cachable request",
+  "authors": [
+    {
+      "name": "Boris Klimenko",
+      "email": "true@trueneutral.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "psr/cache": "^1.0",
+    "psr/log": "^1.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "se3\\": "src/"
+    }
+  }
+}
